@@ -40,15 +40,17 @@
         <div class="blog-form">
             <div class="container">
                 <form action="/login" method="post" style="width: 30%; margin-top: -12px">
-                    {{#if messages.danger}}
-                    <div class="alert alert-danger" role="alert">
-                    {{messages.danger}}
-                    </div>
-                    {{/if}}
                     <h1
                         style="text-align: center; font-weight: 900; font-family: 'Oswald', sans-serif; margin: 20px 0;">
                         LOGIN
                     </h1>
+
+                    {{#if messages.danger}}
+                    <div class= "alert">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    {{messages.danger}}
+                    </div>
+                    {{/if}}
 
                     <div>
                         <label style="font-weight: bold; font-size: 20px" for="inputEmail">Email</label>

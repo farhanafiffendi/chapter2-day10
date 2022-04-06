@@ -253,3 +253,12 @@ nav .navLogin a {
 .blog-content .teks {
   color: rgb(145, 145, 145);
 }
+
+.alert {
+  height: 30px;
+  width: 100%;
+  color: red;
+  background-color: rgb(255, 203, 203);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
